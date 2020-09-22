@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>
+videos
+</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,intial-scale=1.0,user-scalable=no" />
+<style>
+
+*
+{
+         margin:0;
+         padding:0;
+}
+h1
+{  
+     text-align:center;
+     font-size:50px;
+     color:white;
+     position:fixed;
+    z-index:999;
+    margin-left:70px;
+    padding:-2px;
+      
+}
+video
+{
+     width:70%;
+     margin-left:50px;
+     padding-top:40px;
+     position:relative;
+}
+video:hover
+{
+     width:80%;
+     }
+.dam
+{
+   position:fixed;
+}
+.dim
+{
+     background-color:light-blue;
+     height:100vh;
+}
+.dam
+{
+    
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto; 
+    z-index: -1;
+}
+@media (max-aspect-ratio:16/9)
+{
+           .dam
+            {
+               width:auto;
+               height:100;
+             }
+}
+@media (max-aspect-ratio:16/9)
+{
+           .dam
+            {
+               width:auto;
+               height:100;
+}
+.menu {
+        background-color:white;
+        color:white;
+        text-align:center;
+        height:100px;
+        font-size:30px;
+        
+        
+
+}
+.menu ul li
+{
+  width:100%;
+    margin: 15px;
+    padding:  5px;
+    float:left;
+}
+.menu ul li
+   {   text-decoration: none;
+     color: white;
+}
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  align:center;
+  position:relative;
+  
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  margin-top:12px;
+  background:#3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+  background: pink;
+  color: white;
+
+}
+
+</style>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<h1>VIDEOS</h1>
+<section class="dim">
+<video class="dam" autoplay loop muted plays-inline>
+<source src="space journey.mp4" type="video/mp4">
+</video>
+<video controls="controls"  >
+<source src="video1.mp4"  video="web/mp4">
+</video>
+<video controls="controls" >
+<source src="video2.mp4"  video="web/mp4">
+</video>
+<video controls="controls"   >
+<source src="video3.mp4"  video="web/mp4">
+</video>
+
+<video controls="controls" class="sam">
+<source src="video4.mp4"  video="web/mp4">
+</video>
+<video controls="controls"  class="jam">
+<source src="video5.mp4"  video="web/mp4">
+</video>
+<footer>
+<div class="menu">
+<ul>
+<a href="https://www.facebook.com/ActorSonuSood/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/SonuSood" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/sonu_sood/" class="fa fa-instagram"></a>
+
+
+</ul>
+</div>
+</footer>
+</body>
+</html>
